@@ -6,7 +6,6 @@ test('Find the index of the two numbers that sum the target',()=>{
     const target = 18
 
     const result = findTheTwoIndexes(numbers,target);
-    console.log(result)
     
     expect(result).toStrictEqual([1,3])
 });
@@ -17,7 +16,6 @@ test('Find the index of the two numbers that sum the target when we have two equ
     const target = 4
 
     const result = findTheTwoIndexes(numbers,target);
-    console.log(result)
     
     expect(result).toStrictEqual([0,1])
 });
@@ -28,7 +26,6 @@ test('Find the index of the two numbers that sum the target when we have negativ
     const target = 5
 
     const result = findTheTwoIndexes(numbers,target);
-    console.log(result)
     
     expect(result).toStrictEqual([0,2])
 });
